@@ -11,7 +11,7 @@ def main():
 
     # Gathering input text/format to convert
     print(f"\nEnter your {input_format} below:")
-    print("If using numbering systems, seperate each bit with spaces. (ex. )\n")
+    print("If using numbering systems, seperate each bit with spaces. (ex. 68 65 6C 6C 6F 20 77 6F 72 6C 64 0A)\n")
     data = input("Your input: ").strip()
 
     try:
@@ -87,5 +87,3 @@ def convert(data, input_format, output_format):
 
 if __name__ == "__main__":
     main()
-
-
